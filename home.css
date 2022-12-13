@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 50px;
+    height: auto;
+    background-image: url('../WOW/background.png');
+    /* background-position: center; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 90px;
+}
+.container{
+    position: relative;
+    width: 165px;
+    height: 165px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: #2E66A3;
+}
+
+.container img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -55%);
+    width: 100%;
+    height: 100%;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:50px;
+}
+.info h1{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.61);
+}
+.info h2{
+    color: rgba(255, 255, 255, 0.61);
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+}
+
+.button, .button a{
+    all: unset;
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    flex-direction: row;
+    gap: 100px;
+    cursor: pointer;
+    font-size: large;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'calibri';
+}
+.button:hover{
+    background-color: rgba(255, 255, 255, 1);
+    transition: .2s;
+}
+.button img{
+    margin-left: 10px;
+    width: 40px;
+    height: auto;
+}
+.img1{
+    /* margin-right: 20px; */
+    margin-left: 0px;
+}
+.img1.img2{
+    margin-left: 0px;
+    margin-top: 8px;
+    width: 50px;
+    height: auto;
+}
