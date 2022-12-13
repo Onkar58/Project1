@@ -61,6 +61,8 @@ body{
     flex-direction: column;
     width: 400px;
     height: 350px;
+    background-image: none;
+
 }
 
 .button, .button a{
@@ -87,6 +89,8 @@ body{
     margin-left: 10px;
     width: 40px;
     height: auto;
+    background-image: none;
+
 }
 .img1{
     /* margin-right: 20px; */
