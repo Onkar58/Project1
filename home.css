@@ -2,14 +2,16 @@
     margin: 0;
     height: 0;
     box-sizing: border-box;
+    background-image: linear-gradient(-45deg, rgba(40, 36, 39, 1), rgba(73, 37, 73, 1), rgba(57, 102, 159, 1), rgba(37, 24, 54, 1));
+
 }
 
 body{
     padding-top: 50px;
     height: auto;
-    background-image: url('./background.png');
+/*     background-image: url('./background.png'); */
     /* background-position: center; */
-    background-size: cover;
+/*     background-size: cover; */
     /* background-repeat: no-repeat; */
     display: flex;
     align-items: center;
